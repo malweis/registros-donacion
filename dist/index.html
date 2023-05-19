@@ -7,15 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/dist/output.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,700;1,900&display=swap"
+        rel="stylesheet">
+
     <title>Document</title>
 </head>
 
-<body class="h-screen">
-    <div class="overflow-auto max-h-[500px]h-full bg-red-600  grid place-items-center gap-6 p-8 contenedor" >
-  
+<body class="h-screen  bg-red-600 p-6 ">
+    <div class="w-full flex justify-center items-center">
+        <div class="flex" id="checks">
+            <input type="checkbox" id="choose-me" class="peer hidden" />
+            <label for="choose-me"
+                class="select-none cursor-pointer rounded-lg border-2 border-gray-200
+             py-3 px-6 font-bold text-gray-200 transition-colors duration-200 ease-in-out peer-checked:bg-white peer-checked:text-gray-900 peer-checked:border-gray-200 ">
+                Ver mis donaciones </label>
+        </div>
+    </div>
+    <div class="overflow-auto max-h-[500px]h-full bg-red-600  grid place-items-center gap-6 p-8 contenedor">
+
+
     </div>
 
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="js/script.js"></script>
